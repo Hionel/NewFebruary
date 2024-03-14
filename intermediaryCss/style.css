@@ -1,0 +1,875 @@
+/*------------------------------------------------------*/
+/* ---- PHASE 1                                   ---- */
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/* ---- PHASE 1                                   ---- */
+/*------------------------------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(to left, rgb(156, 12, 161), #39065a);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+html{
+    background-color: #fff;
+    font-family: 'Hebbo','Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+}
+.logo{
+    height: auto;
+    width:5%;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 2%;
+    transition: transform 2s;
+}
+.logo:hover{
+    transform:scaleX(-1)
+}
+nav{
+    display: block;
+    float: right;
+    width: 80%;
+}
+.main-nav{
+    list-style: none;
+    margin-top:2%;
+}
+.main-nav li{
+    display: inline;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:8px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border 1s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid  #39065a;
+
+}
+
+.content1{
+    display: block;
+    float:right;
+    width: 100%;
+}
+.appschool-txt-box{
+    display: block;
+    position: relative;
+    float: right;
+    width:60%;
+    height: auto;
+    margin-top: 10%;
+}
+.appschool-txt-box h1{
+    position: absolute;
+    right:10%;
+}
+h1{
+    margin-top: 0;
+    color:#fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+.buttons{
+    position: absolute;
+    right:30%;
+    top:150px;
+}
+.btn:link,
+.btn:visited{
+
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+    transition: background-color 1s, border 1s, color 1s;
+}
+.btn:hover,
+.btn:active{
+    background-color: #e858ae;
+
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e858ae;
+    border:1px solid #e858ae;
+    color:#fff;
+}
+.btn-full:hover,
+.btn-full:active{
+    border:1px solid #e858ae;
+}
+
+.btn-hole:link,
+.btn-hole:visited{
+    border:1px solid #e858ae;
+    color:#e858ae;
+}
+.btn-hole:hover,
+.btn-hole:active{
+    border:1px solid #e858ae;
+    color:#fff;
+}
+.Illustration{
+    display: block;
+    width: 30%;
+    float: right;
+    height: auto;
+}
+.Illustration img{
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5s;
+
+}
+.Illustration img:hover{
+    transform: scale(1.3);
+  }
+.icon{
+    display:none;  
+}   
+  
+
+/*------------------------------------------------------*/
+/* ---- PHASE 2 מסלולי לימוד שלנו                  ---- */
+/*------------------------------------------------------*/
+section{
+    padding:0px 0px;
+    width: 100%;
+    overflow: auto;
+    overflow: hidden; /* Hide scrollbars */
+  
+}  
+h2, h3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 180%;
+    word-spacing:2px ;
+    text-align: center;
+    letter-spacing: 1px;
+    color:#9a0f98;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:#e858ae ;
+    content:" ";
+    width:100px;
+    margin:0 auto;
+    margin-top: 30px;
+    
+}
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    color:#9a0f98;
+}
+
+.masloolim{
+    width:100%;
+    position: relative;
+    margin-top: 50px;
+}
+.titleParagraph{
+    line-height: 180%;
+    width:70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 5px;;
+    margin-bottom: 5px;
+    padding:5px 5px;
+}
+
+.col{
+    display: block;
+    float: left;
+    width:25%;
+    height: 300px;
+    padding:3%;
+}
+.Icon-1{
+    width: 50%;
+    margin-left: 25%;
+    transition: transform 2s;
+}
+.Icon-1:hover{
+    transform: scaleX(-1);
+  
+  }
+.center{
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+/* ---- PHASE 3  our robots                        ---- */
+/*------------------------------------------------------*/
+
+.our-robots{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #39065a);
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.img-col{
+    display: block;
+    float: right;
+    width: 33%;
+    height:auto;
+    padding: 2%;
+}
+.img-col img{
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+.img-col img:hover{
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  
+/*------------------------------------------------------*/
+/* ---- PHASE 4 - our process                      ---- */
+/*------------------------------------------------------*/
+.our-process{
+    width:100%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.img-col-radus{
+    display: block;
+    float:right;
+    position: relative;
+    width: 25%;
+    height: 50%;
+    padding:70px 0;
+
+}
+.ellipse-1 {
+    box-shadow: 0 20px 30px 0 rgba(154, 15, 152, 0.2);
+    background-image: linear-gradient(to bottom, #9a0f98, #ea0599);
+    border-radius: 50%;
+    width:177px;
+    height: 177px;
+    margin:0 auto;
+    position: relative;
+    transition: transform 2s;
+
+
+
+}
+.ellipse-1:hover{
+    transform: scaleY(-1);
+}
+.sb{
+    position: absolute;
+    right:20%;
+    top:-10%;
+    width:49px;
+    height: 49px;
+    border-radius: 50%;
+    text-align: center;
+    padding:10px 0;
+    border:1px solid #ea0599;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 2.04;
+    letter-spacing: normal;
+    color: #acacb3;
+
+    
+}
+.ellipse-1 img{
+    padding:25% 25%;
+}
+.phasesTxt {
+    width: 202px;
+    height: 67px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    color:#797980;
+    border:1px dashed #ea0599;
+    margin:0 auto;
+    margin-top: 2%;
+    padding:7px 7px;
+
+
+}
+/*------------------------------------------------------*/
+/* ---- PHASE 5 - what we learn                     ---- */
+/*------------------------------------------------------*/
+.what-you-learn{
+    width:100%;
+    height: auto;
+    padding:5% 6%;
+    background-image: linear-gradient(to top, rgb(156, 12, 161), #39065a);
+     color:white;
+   }
+   .what-you-learn img{
+     display: block;
+     float: left;
+     width: 33%;
+     transition: transform 2s;
+   }
+  
+  
+  
+  .what-you-learn img:hover{
+    transform: scaleX(-0.75);
+  }
+  
+.phase5-content{
+    float: left;
+    width: 66%;
+    margin-top:2%;
+    padding-left: 10%;
+}
+.list1{
+    display: block;
+    float: left;
+    width: 50%;
+}
+.list1 ul{
+
+    list-style: none;
+    margin:5% 0;
+    padding: 0;
+    width: 100%;
+}
+.list1 ul li{
+    text-decoration: none;
+    width: 100%;
+    height: 15%;
+    display: block;
+    overflow: auto;
+    margin-top:15px;
+}
+.phase-5-img{
+    width: 20%;
+    display: block;
+    float: left;
+}
+.phase5-p{
+    display: block;
+    width:70%;
+    padding:8px;
+    float: left;
+}
+.list1 li img{
+    width: 50px;
+    transition: transform 2s;
+}
+.list1 li img:hover{
+    transform: scaleY(-0.5);
+}
+
+/*------------------------------------------------------*/
+/* ---- PHASE 6 - ממליצים                          ---- */
+/*------------------------------------------------------*/
+.phase6-recommend{
+    color:#000;
+    width: 100%;
+    padding:5% 6%;
+    background: #f9f7fa;
+}
+.recommend-box{
+    width: 100%;
+    padding:2% 2% 2% 2%;
+}
+.phase6-col{
+    display: block;
+    position: relative;
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+    padding-left:1%;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    border:1px solid pink;
+    padding: 2%;
+}
+.geresh{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top:-10%;
+    z-index: 199;
+  }
+  .phase6-title{
+    width: 100%;
+    height: 27px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    text-align: right;
+    color: #9a0f98;
+  }
+  .phase6-content{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: right;
+    color: #000000;
+  }
+  .phase6-img{
+    width: 10%;
+    display: block;
+    float:left;
+    padding:2% 2%;
+  
+  }
+/*------------------------------------------------------*/
+/* ---- PHASE 7 - מחירים                          ---- */
+/*------------------------------------------------------*/
+
+.phase7-prices{
+    color: #000000;
+    width:100%;
+    margin-top:5%;
+    background: #fff;
+  }
+.prices-box{
+    margin-right: 12.5%;
+  }
+  .phase7-col{
+    display:block;
+    position: relative;
+    float:right;
+    width: 23%;
+    margin-right: 2%;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to bottom, rgb(156, 12, 161), #39065a);
+    border:1px solid #39065a;
+    height: auto;
+    color:#fff;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+
+}  
+.phase7-col:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    }
+.phase7-title{
+        text-align: center;
+        margin:10px 0;
+        font-size: 120%;
+}
+.phase7-subtitle{
+    text-align: center;
+    margin:10px 0;
+    font-size: 100%;
+}
+.phase7-title-recommend {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #ea0599;
+    margin-top: 10%;
+  }
+
+.phase7-col ul{
+    list-style-type: none;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: 75%;
+  
+}
+.phase7-col ul li{
+    width: 150%;
+  }
+.phase7-check-mark{
+    margin-left: 5%;
+  }
+.phase7-middle-div {
+    margin-top:3%;
+    margin-bottom: 2%;
+    height: 55%;
+}
+.phase7-btn{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top:5%;
+    margin-bottom:5%;
+    width:70%;
+}
+
+/*------------------------------------------------------*/
+/* ---- PHASE 8 - forms                            ---- */
+/*------------------------------------------------------*/
+.contatc-us{
+    color: #000000;
+    width:100%;
+    height: auto;
+    margin-top:10%;
+    background: #f9f7fa;
+}
+.my-form{
+    width: 60%;
+    display: block;
+    float: left;
+  
+}
+.div-buttons{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    height: auto;
+  }
+  input[type=text] {
+    display: block;
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+    height: 8%;
+    padding: 2% 2%;
+    border-radius: 5%;
+    border: solid 2px #eaeaec;
+    background-color: #ffffff;
+  }
+.div-textarea{
+    display: block;
+    float: left;
+    margin-top: 0.5%;
+    width: 60%;
+  }
+  .div-textarea textarea {
+    width: 100%;
+    height: 100px;
+    margin-top:7px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    border: solid 2px #eaeaec;
+    background-color: #ffffff;
+  }
+  .btn-submit input[type=submit] {
+    display: block;
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #ea0599, #9a0f98);
+    margin-top: 10px;
+    margin-left: 30%;
+    transition: width 2s;
+  
+  }
+  .btn-submit input[type=submit]:hover {
+    width: 70%;
+  }
+  .whatsapp{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 30px;
+    
+  }
+  .btn-whats-app{
+    position: fixed;
+    bottom: 45px;
+    left:10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    color: #fff;
+    border:5px solid #fff;
+    transform: scale(1);
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  .btn-whats-app:hover{
+    opacity: 1;
+    transform: scale(1.3);
+  }
+  .img-coding{
+    display: block;
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .img-coding img{
+    width: 80%;
+    height: auto;
+  }
+
+
+/*------------------------------------------------------*/
+/* ---- PHASE 9 - footer                            ---- */
+/*------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top:10px;
+    background-color: #39065a;
+    color:white;
+}
+footer ul{
+    width:40%;
+    display: block;
+    float:left;
+    color:#fff;
+    margin-left: 5%;
+}
+footer ul li{
+    display: block;
+    float: left;
+    width: 25%;
+    height: 30px;
+    margin-top: 20px;
+  }
+footer ul li a{
+    color:white;
+    text-decoration:none;
+    margin:0 auto;
+    font-size: 80%;
+  }
+.fyt{
+    width: 55%;
+    display: block;
+    float: left;
+    margin-top: 17px;
+ }
+ footer img {
+    display: block;
+    float: left;
+    width: 5%;
+    padding:10px;
+  }
+footer  p{
+    display: block;
+    float: right;
+    width: 30%;
+  }
+
+/*------------------------------------------------------*/
+/* ---- PHASE 10 - @media screen                   ---- */
+/*------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .phase5-p{
+        margin-right: 15px;
+    }
+    .phase6-col{
+        padding: 2%;
+        font-size: 60%;
+      }
+      .phase6-title{
+        margin-bottom: 15px;
+    }
+    .phase6-content{
+        font-size: 15px;
+    }
+    .phase7-col ul{
+        list-style-type: none;
+        margin-right: 15%;
+        font-size: 65%;
+      
+    }
+    .phase7-check-mark{
+        margin-left: 5%;
+      }
+
+    footer ul{
+        width:40%;
+    }
+    footer ul li a{
+        font-size: 60%;
+    }
+    footer img {
+        width: 10%;
+    }
+    footer  p{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   
+    .appschool-txt-box{
+        width: 90%;
+        font-size: 12px;
+        display: block;
+        overflow: auto;
+        padding:10%;
+        height: 600px;
+
+    }
+    .appschool-txt-box h1{
+        width: 100%;
+        position: relative;
+        display: block;
+        float: right;
+        margin:0 auto;
+        
+      }
+      .buttons{
+        position: relative;
+        width: 50%;
+        height: auto;
+        display: block;
+        float: right;
+      }
+      .buttons a{ 
+        margin-top:10px;
+      }
+      .Illustration{
+        display: block;
+        position: relative;
+        width: 100%;
+        float:right;
+        height: auto;
+      }
+      .main-nav  {
+        display: none;
+      }
+      
+      .main-nav li{
+        width:50%;
+        height: 5%;
+        display: block;
+        margin-top: 2px;
+        margin-right: 5px;
+        border-bottom: 1px solid white;
+      }
+      .main-nav li:hover{
+        background-color: white;
+        color:black;
+    }
+    .main-nav li a:hover{
+      color:black;
+    }
+
+    .logo{
+        width: 20%;
+        float:left;
+      }
+
+      .icon{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color:white;
+      }
+    
+/*------------------------------------------------------*/
+/* ---- PHASE 2                                    ---- */
+/*------------------------------------------------------*/
+.col{
+    width: 100%;
+  }
+/*------------------------------------------------------*/
+/* ---- PHASE 3                                    ---- */
+/*------------------------------------------------------*/
+.img-col{
+    width: 100%;
+}
+  /*------------------------------------------------------*/
+  /* ---- PHASE 4                                    ---- */
+  /*------------------------------------------------------*/
+  .img-col-radus{
+    width:100%;
+}
+/*------------------------------------------------------*/
+/* ---- PHASE 6 - recommended                      ---- */
+/*------------------------------------------------------*/
+.phase6-col{
+    width: 100%;
+    padding: 3%;
+    margin-top: 20px;
+  }
+  .geresh{
+    position: absolute;
+    margin-top: -8%;
+    z-index: 199;
+}
+/*------------------------------------------------------*/
+/* ---- PHASE 7 - footer  - 480px                  ---- */
+/*------------------------------------------------------*/
+.prices-box{
+    margin-right: 1%;
+  }
+  .phase7-col{
+    display:block;
+    position: relative;
+    width: 100%;
+    margin-right: 1%;
+    margin-top: 5%;
+
+} 
+/*------------------------------------------------------*/
+/* ---- PHASE 9 - footer                           ---- */
+/*------------------------------------------------------*/
+footer{
+    width:100%;
+    height: 200px;
+}
+
+footer ul li{
+    width: 100%;
+}
+footer ul li a{
+    margin:0 auto;
+    font-size: 80%;
+}
+.fyt{
+    width: 30%;
+}
+footer img {
+    width: 51%;
+}
+footer  p{
+    width: 100%;
+    font-size: 65%;
+}
+.whatsapp{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  .btn-whats-app{
+    right: 260px;
+}
+}
+
+
+
+
+
+   
+  
+  
+  
