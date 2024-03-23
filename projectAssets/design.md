@@ -18,6 +18,7 @@ OUR ROBOTS
 HOW IT WORKS SECTION
 
 - circles bg color : linear-gradient(to bottom, #9a0f98, #ea0599)
+
 - circles box shadow : 0 20px 30px 0 rgba(154, 15, 152, 0.2)
 - small circles border : 1px solid #ea0599
 - under circles text border : 1px dashed #ea0599;
