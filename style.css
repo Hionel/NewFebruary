@@ -1,0 +1,26 @@
+body {
+	height: 100vh;
+}
+
+.displayFlex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.logo {
+	border: 1px solid black;
+	border-radius: 100%;
+	padding: 2px;
+	scale: 2;
+	margin: 0 0 0 1rem;
+}
+
+.form__container {
+	height: 100%;
+}
+
+.card {
+	width: 40%;
+}
