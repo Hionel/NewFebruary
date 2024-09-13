@@ -1,0 +1,23 @@
+.login{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var( --color-dark--1);
+    min-height: 90vh;
+}
+
+.form{
+    background-color: var(--color-dark--2);
+    border-radius: 7px;
+    padding: 2rem 3rem;
+    /* width: 100%; */
+    width: 48rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

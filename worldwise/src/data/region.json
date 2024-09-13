@@ -1,0 +1,12 @@
+{
+	"regions": [
+		{
+			"id": 1,
+			"name": "Europe"
+		},
+		{
+			"id": 2,
+			"name": "Latm"
+		}
+	]
+}
