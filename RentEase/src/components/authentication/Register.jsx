@@ -1,5 +1,7 @@
+import Box from "@mui/material/Box";
+
 const Register = () => {
-	return <div>Register</div>;
+	return <Box className="authentication__form__container">Register</Box>;
 };
 
 export default Register;

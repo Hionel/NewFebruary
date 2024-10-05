@@ -1,20 +1,23 @@
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import AuthNavigation from "./AuthNavigation";
+import { Container, Box } from "@mui/material";
 
 const Auth = () => {
-	const navigate = useNavigate();
-
-	const navigateTo = (url) => {
-		console.log(`Navigating to ${url}`);
-		navigate(url);
-	};
-
 	return (
-		<section>
-			AUTH
-			<Outlet />
-			<button onClick={() => navigateTo("login")}>Login</button>
-			<button onClick={() => navigateTo("register")}>Register</button>
-		</section>
+		<Container
+			disableGutters
+			maxWidth="false"
+			sx={{
+				height: "100%",
+				flexDirection: "column",
+			}}
+			classes={{ root: "displayFlexCentered" }}
+		>
+			<Box className="autentication__container">
+				<Outlet />
+				<AuthNavigation />
+			</Box>
+		</Container>
 	);
 };
 
