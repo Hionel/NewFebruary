@@ -1,5 +1,5 @@
 // Hooks
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // Services
@@ -41,26 +41,16 @@ const Login = () => {
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
-		console.log(name, value);
 		setLoginData({ ...loginData, [name]: value });
 	};
 
 	const handleSubmit = async () => {
-		console.log("Login data submitted");
-		console.log(loginData);
 		setLoading(true);
 		const response = await signIn(loginData);
-		console.log("GOT RESPONSE FROM SIGN IN METHOD");
-		console.log(response);
 		setLoading(false);
 		if (response instanceof FirebaseError) return;
 		navigate("/homepage");
 	};
-
-	useEffect(() => {
-		console.log("Watch login data with useEffect");
-		console.log(loginData);
-	}, [loginData]);
 
 	return (
 		<Box className="authentication__form__container displayFlexCentered">
